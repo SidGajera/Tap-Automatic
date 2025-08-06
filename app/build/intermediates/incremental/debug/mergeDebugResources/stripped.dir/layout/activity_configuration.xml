@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/nativeLay"
+        android:background="@drawable/bg">
+
+        <RelativeLayout
+            android:id="@+id/header"
+            android:layout_width="1080px"
+            android:layout_height="180px"
+            android:layout_alignParentTop="true">
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="105px"
+                android:layout_height="105px"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginHorizontal="50px"
+                android:layout_marginLeft="50px"
+                android:layout_marginRight="50px"
+                android:src="@drawable/effect_back" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_toLeftOf="@+id/more"
+                android:layout_toRightOf="@+id/back"
+                android:fontFamily="@font/gilroy_medium"
+                android:lines="1"
+                android:text="@string/ac76"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_16sdp" />
+
+            <ImageView
+                android:id="@+id/more"
+                android:layout_width="105px"
+                android:layout_height="105px"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginHorizontal="50px"
+                android:layout_marginLeft="50px"
+                android:layout_marginRight="50px"
+                android:src="@drawable/effect_more" />
+        </RelativeLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycleView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/header"
+            android:layout_centerHorizontal="true"
+            android:orientation="vertical"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+        <ImageView
+            android:id="@+id/noData"
+            android:layout_width="606px"
+            android:layout_height="605px"
+            android:layout_centerInParent="true"
+            android:src="@drawable/no_data_logo" />
+
+        <RelativeLayout
+            android:id="@+id/popBg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/popup_bg"
+            android:visibility="gone"
+            app:measureMargin="true"
+            app:measureWith="none"
+            app:resizeChildren="true">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="415px"
+                android:layout_height="308px"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="180px"
+                android:layout_marginRight="30px"
+                android:background="@drawable/imoprt_export_popup">
+
+                <TextView
+                    android:id="@+id/importTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="100px"
+                    android:layout_marginHorizontal="@dimen/_10sdp"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:fontFamily="@font/gilroy_medium"
+                    android:gravity="center"
+                    android:lines="1"
+                    android:text="@string/ac80"
+                    android:textColor="@drawable/txt_selector"
+                    android:textSize="@dimen/_13sdp"
+                    app:layout_constraintBottom_toTopOf="@+id/exportTv"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="315px"
+                    android:layout_height="3px"
+                    android:src="@drawable/imoprt_export_divider"
+                    app:layout_constraintBottom_toTopOf="@+id/exportTv"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/importTv" />
+
+                <TextView
+                    android:id="@+id/exportTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="100px"
+                    android:layout_marginHorizontal="@dimen/_10sdp"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:fontFamily="@font/gilroy_medium"
+                    android:gravity="center"
+                    android:lines="1"
+                    android:text="@string/ac79"
+                    android:textColor="@drawable/txt_selector"
+                    android:textSize="@dimen/_12sdp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/importTv" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/nativeLay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:minHeight="60dp"
+        android:orientation="vertical" />
+</RelativeLayout>

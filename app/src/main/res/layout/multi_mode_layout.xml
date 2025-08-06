@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:measureMargin="true"
+    app:measureWith="none"
+    app:resizeChildren="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="175px"
+        android:layout_height="1314px"
+        android:background="@drawable/multi_f_bg"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/play"
+            android:layout_width="127px"
+            android:layout_height="127px"
+            android:src="@drawable/play"
+            app:layout_constraintBottom_toTopOf="@+id/pluse"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/pluse"
+            android:layout_width="127px"
+            android:layout_height="127px"
+            android:src="@drawable/effect_pluse"
+            app:layout_constraintBottom_toTopOf="@+id/swipe"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/play" />
+
+        <ImageView
+            android:id="@+id/swipe"
+            android:layout_width="127px"
+            android:layout_height="127px"
+            android:src="@drawable/effect_swipe"
+            app:layout_constraintBottom_toTopOf="@+id/minus"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pluse" />
+
+        <ImageView
+            android:id="@+id/minus"
+            android:layout_width="127px"
+            android:layout_height="127px"
+            android:src="@drawable/effect_minus"
+            app:layout_constraintBottom_toTopOf="@+id/save"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/swipe" />
+
+        <ImageView
+            android:id="@+id/save"
+            android:layout_width="127px"
+            android:layout_height="127px"
+            android:src="@drawable/effect_save_m"
+            app:layout_constraintBottom_toTopOf="@+id/setting"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/minus" />
+
+        <ImageView
+            android:id="@+id/setting"
+            android:layout_width="127px"
+            android:layout_height="127px"
+            android:src="@drawable/effect_setting"
+            app:layout_constraintBottom_toTopOf="@+id/move"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/save" />
+
+        <ImageView
+            android:id="@+id/move"
+            android:layout_width="127px"
+            android:layout_height="127px"
+            android:src="@drawable/effect_move"
+            app:layout_constraintBottom_toTopOf="@+id/close"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/setting" />
+
+        <ImageView
+            android:id="@+id/close"
+            android:layout_width="127px"
+            android:layout_height="127px"
+            android:src="@drawable/effect_close"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/move" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

@@ -1,0 +1,1238 @@
+[
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_configuration_ic_two.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/configuration_ic_two.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable_effect_minus.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable/effect_minus.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_punjabi.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/punjabi.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_multi_target_bg_1.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/multi_target_bg_1.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable_f1.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable/f1.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_plus_pressed.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/plus_pressed.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable_sp_logo.jpg.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable/sp_logo.jpg"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_play_unpressed.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/play_unpressed.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable_effect_reset.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable/effect_reset.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_russian.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/russian.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/layout_big_ad_unified.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/big_ad_unified.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/layout_activity_multi_mode_instruction.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/activity_multi_mode_instruction.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_move_pressed.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/move_pressed.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/xml_backup_rules.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/anim_design_snackbar_out.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/anim/design_snackbar_out.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable_effect_disagree.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable/effect_disagree.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_manage_config_popup.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/manage_config_popup.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_s_2_4.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/s_2_4.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_okay_unpressed.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/okay_unpressed.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_star_unfill.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/star_unfill.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_multi_target_bg_2.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/multi_target_bg_2.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable_effect_move.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable/effect_move.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_s_2_5.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/s_2_5.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/layout_language_layout.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/language_layout.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable_native_ads_out_line.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable/native_ads_out_line.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_save_unpressed_two.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/save_unpressed_two.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_on.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/on.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/font_gilroy_regular.ttf.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/font/gilroy_regular.ttf"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable_effect_close.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable/effect_close.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/xml_splits.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/xml/splits.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_splash_logo.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/splash_logo.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/mipmap-mdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/layout_intro_row.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/intro_row.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_new_btn_unpressed.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/new_btn_unpressed.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/layout_activity_first.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/activity_first.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_manage_config_divider.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/manage_config_divider.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/raw_v1.json.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/raw/v1.json"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/layout_time_picker_dialog.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/time_picker_dialog.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_popup_time_picker.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/popup_time_picker.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_minus_unpressed.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/minus_unpressed.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_s_2_6.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/s_2_6.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/anim_linear_indeterminate_line1_tail_interpolator.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/anim/linear_indeterminate_line1_tail_interpolator.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_next_pressed_two.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/next_pressed_two.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable_effect_pcm_more.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable/effect_pcm_more.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_hindi.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/hindi.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable_design_ic_visibility.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable/design_ic_visibility.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/layout_activity_guide.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/activity_guide.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_italian.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/italian.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable_text2.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable/text2.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_guide_4_indicator.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/guide_4_indicator.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_play_pressed.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/play_pressed.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_language_bg_selected.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/language_bg_selected.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/layout_activity_configuration.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/activity_configuration.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable_design_password_eye.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable/design_password_eye.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_single_multi_mode_line.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/single_multi_mode_line.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/xml_network_security_config.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/xml/network_security_config.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable_f3.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable/f3.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/layout_pcm_more_dialog.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/pcm_more_dialog.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_imoprt_export_popup.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/imoprt_export_popup.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable_bgshort.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable/bgshort.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_pcm_bg.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/pcm_bg.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable_effect_save_m.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable/effect_save_m.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable_native_ad_background.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable/native_ad_background.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_check.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/check.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_sqaure_target.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/sqaure_target.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_more_unpressed.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/more_unpressed.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable_effect_allow.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable/effect_allow.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable_notification_bg_low.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_home_pessed.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/home_pessed.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_radio_unselect.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/radio_unselect.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_save_pressed.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/save_pressed.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable_ic_search_black_24.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable/ic_search_black_24.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_thai.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/thai.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_popup_access.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/popup_access.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/anim_fragment_fast_out_extra_slow_in.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/anim/fragment_fast_out_extra_slow_in.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_more_popup_divider.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/more_popup_divider.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/mipmap-hdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable_ic_clear_black_24.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable/ic_clear_black_24.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_pcm_more_pressed.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/pcm_more_pressed.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_s_2_3.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/s_2_3.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_next_pressed.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/next_pressed.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_uncheck.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/uncheck.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/layout_save_list_adapter.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/save_list_adapter.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable_navigation_empty_icon.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable/navigation_empty_icon.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_english.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/english.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_instructions_ic.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/instructions_ic.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable_effect_ok.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable/effect_ok.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_next_unpressed.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/next_unpressed.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/raw_v2.json.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/raw/v2.json"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_s_2_1.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/s_2_1.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable_design_snackbar_background.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable/design_snackbar_background.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable_appicon.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable/appicon.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/layout_multi_mode_setting_dialog.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/multi_mode_setting_dialog.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_star_fill.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/star_fill.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/layout_item_google_native_ad_outline.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/item_google_native_ad_outline.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_step_1_ic.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/step_1_ic.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/xml_config.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/xml/config.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable_effect_pcm_copy.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable/effect_pcm_copy.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/mipmap-xhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_digit_bg.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/digit_bg.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/layout_rate_dialog.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/rate_dialog.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable_txt_selector.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable/txt_selector.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_next_unpressed_two.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/next_unpressed_two.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_move_unpressed.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/move_unpressed.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_radio_select.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/radio_select.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_rate_popup.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/rate_popup.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable_notification_icon_background.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/layout_banner_layout.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/banner_layout.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/layout_activity_permission.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/activity_permission.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/font_gilroy_medium.ttf.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/font/gilroy_medium.ttf"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_korean.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/korean.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/layout_ad_unified.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/ad_unified.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_swipe_pressed.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/swipe_pressed.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_save_pressed_two.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/save_pressed_two.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable_notification_action_background.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable/notification_action_background.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_agree_unpressed.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/agree_unpressed.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable_effect_setting.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable/effect_setting.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable_effect_home.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable/effect_home.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_guide_img_2.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/guide_img_2.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_permission_logo.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/permission_logo.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable_ic_clock_black_24dp.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable/ic_clock_black_24dp.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_turkish.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/turkish.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_g_2.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/g_2.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_edit_config_popup.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/edit_config_popup.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_step_2_ic.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/step_2_ic.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_s_2_2.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/s_2_2.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_single_mode_main_bg.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/single_mode_main_bg.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/layout_activity_single_mode_instruction.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/activity_single_mode_instruction.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/raw_firebase_common_keep.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/raw/firebase_common_keep.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable_effect_back.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable/effect_back.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_reset_pressed.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/reset_pressed.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/layout_activity_splash.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_guide_img_4.webp.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/guide_img_4.webp"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable_effect_next_two.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable/effect_next_two.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable_f2.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable/f2.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_imoprt_export_divider.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/imoprt_export_divider.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_multi_target_ic.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/multi_target_ic.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/layout_custom_dialog.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/layout_activity_single_mode_setting.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/activity_single_mode_setting.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_s_2_7.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/s_2_7.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_copy_pressed.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/copy_pressed.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/layout_delete_dialog.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/delete_dialog.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_multi_f_bg.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/multi_f_bg.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable_ic_keyboard_black_24dp.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable/ic_keyboard_black_24dp.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable_effect_pcm_play.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable/effect_pcm_play.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_interval_value_bg.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/interval_value_bg.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable_effect_pluse.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable/effect_pluse.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable_notification_bg.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable_effect_new_add.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable/effect_new_add.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_portuguese.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/portuguese.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/layout_edit_configuration_dialog.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/edit_configuration_dialog.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_single_target_ic.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/single_target_ic.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_more_pressed.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/more_pressed.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable_notification_tile_bg.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_stop.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/stop.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_popup.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/popup.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/layout_activity_main.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_g_1.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/g_1.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_guide_img_3.webp.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/guide_img_3.webp"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/xml_image_share_filepaths.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/xml/image_share_filepaths.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_allow_permission_pressed.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/allow_permission_pressed.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_spanish.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/spanish.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_dd.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/dd.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable_effect_done.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable/effect_done.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_drop_down_unpressed.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/drop_down_unpressed.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_disagree_pressed.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/disagree_pressed.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_interval_bg.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/interval_bg.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/layout_activity_multi_mode_setting.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/activity_multi_mode_setting.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/layout_activity_privacy_policy.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/activity_privacy_policy.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_privacy_policy_ic.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/privacy_policy_ic.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/layout_single_mode_setting_dialog.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/single_mode_setting_dialog.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_rate_us_now_unpressed.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/rate_us_now_unpressed.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_preloader_unfill.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/preloader_unfill.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_done_pressed.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/done_pressed.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_rb_selected.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/rb_selected.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/xml_data_extraction_rules.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_step_4_ic.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/step_4_ic.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable_tooltip_frame_light.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable/tooltip_frame_light.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/layout_second_start.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/second_start.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_step_3_ic.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/step_3_ic.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable_tooltip_frame_dark.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable/tooltip_frame_dark.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable_effect_agree.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable/effect_agree.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_agree_pressed.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/agree_pressed.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_popup_count.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/popup_count.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/font_gilroy_semi_bold.ttf.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/font/gilroy_semi_bold.ttf"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_popup_single_setting.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/popup_single_setting.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_multi_mode_main_bg.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/multi_mode_main_bg.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable_textof.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable/textof.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_configuration_popup.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/configuration_popup.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_setting_pressed.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/setting_pressed.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_reset_unpressed.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/reset_unpressed.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_of_digit_round.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/of_digit_round.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable_effect_down.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable/effect_down.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/anim_design_snackbar_in.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/anim/design_snackbar_in.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable_effect_save.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable/effect_save.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_cancel_pressed.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/cancel_pressed.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/layout_activity_intro.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/activity_intro.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_arabic.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/arabic.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/layout_loading_dialog.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/loading_dialog.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_rate_us_now_pressed.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/rate_us_now_pressed.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable_design_fab_background.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable/design_fab_background.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/layout_admob_empty_layout.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/admob_empty_layout.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_okay_pressed.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/okay_pressed.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_chinese.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/chinese.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/layout_activity_start.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/activity_start.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable_exit_btn.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable/exit_btn.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_new_unpressed.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/new_unpressed.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_cancel_pressed_two.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/cancel_pressed_two.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_minus_pressed.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/minus_pressed.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_new_btn_pressed.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/new_btn_pressed.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable_texts.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable/texts.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_configuration_ic.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/configuration_ic.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/layout_activity_language.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/activity_language.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_language_ic.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/language_ic.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_copy_unpressed.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/copy_unpressed.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_setting_unpressed.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/setting_unpressed.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/layout_activity_web.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/activity_web.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable_border.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable/border.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/layout_save_list_dialog.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/save_list_dialog.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable_effect_more.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable/effect_more.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_single_target_bg_2.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/single_target_bg_2.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable_list_item_bg.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable/list_item_bg.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_guide_img_1.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/guide_img_1.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_guide_3_indicator.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/guide_3_indicator.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_back_pressed.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/back_pressed.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/anim_linear_indeterminate_line2_tail_interpolator.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/anim/linear_indeterminate_line2_tail_interpolator.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_home_unpessed.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/home_unpessed.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_g_3.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/g_3.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_allow_permission_unpressed.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/allow_permission_unpressed.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_disagree_unpressed.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/disagree_unpressed.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable_design_ic_visibility_off.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable/design_ic_visibility_off.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/layout_save_dialog.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/save_dialog.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_single_f_bg.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/single_f_bg.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/layout_native_ad_layout.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/native_ad_layout.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_no_data_logo.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/no_data_logo.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable_bg_btn_native_ad.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable/bg_btn_native_ad.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_popup_bg.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/popup_bg.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_guide_2_indicator.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/guide_2_indicator.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/mipmap-xxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_plus_unpressed.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/plus_unpressed.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_malaysian.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/malaysian.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_target.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/target.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_guide_1_indicator.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/guide_1_indicator.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable_ic_arrow_back_black_24.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable/ic_arrow_back_black_24.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_french.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/french.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable_effect_swipe.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable/effect_swipe.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/xml_ga_ad_services_config.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/xml/ga_ad_services_config.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_setting_ic.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/setting_ic.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_single_target_divider.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/single_target_divider.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_dutch.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/dutch.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/layout_configuration_layout.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/configuration_layout.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/layout_single_mode_layout.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/single_mode_layout.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/layout_multi_mode_target_two.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/multi_mode_target_two.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_splash_text_logo.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/splash_text_logo.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_swipe_unpressed.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/swipe_unpressed.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_cancel_unpressed_two.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/cancel_unpressed_two.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_drop_down_pressed.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/drop_down_pressed.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/xml_gma_ad_services_config.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/xml/gma_ad_services_config.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable_f4.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable/f4.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/layout_single_mode_target.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/single_mode_target.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_cancel_unpressed.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/cancel_unpressed.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable_effect_cancel.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable/effect_cancel.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/layout_assecc_dialog_layout.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/assecc_dialog_layout.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_guide_ic.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/guide_ic.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_japanese.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/japanese.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_bg.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/bg.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable_bg.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable/bg.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_single_target_bg_1.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/single_target_bg_1.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_vietnamese.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/vietnamese.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_permission_text_bg.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/permission_text_bg.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/layout_exit_screen.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/exit_screen.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_off.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/off.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_pcm_more_unpressed.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/pcm_more_unpressed.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_back_unpressed.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/back_unpressed.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_pcm_divider.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/pcm_divider.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_new_text_btn_bg.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/new_text_btn_bg.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/raw_v3.json.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/raw/v3.json"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_save_unpressed.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/save_unpressed.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_time_popup.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/time_popup.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable_test_level_drawable.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable/test_level_drawable.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/anim_linear_indeterminate_line1_head_interpolator.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/anim/linear_indeterminate_line1_head_interpolator.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable_effect_rate_us_now.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable/effect_rate_us_now.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_rb_unselected.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/rb_unselected.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_language_bg_unselected.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/language_bg_unselected.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/layout_multi_mode_target.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/multi_mode_target.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_done_unpressed.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/done_unpressed.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/anim_linear_indeterminate_line2_head_interpolator.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/anim/linear_indeterminate_line2_head_interpolator.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/layout_small_ad_unified.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/small_ad_unified.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_indonesian.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/indonesian.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/layout_multi_mode_layout.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/multi_mode_layout.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_play.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/play.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable_effect_next.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable/effect_next.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_german.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/german.png"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/layout_line_view.xml.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/line_view.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-debug-6:/drawable-nodpi_share_app_ic.png.flat",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/drawable-nodpi/share_app_ic.png"
+    }
+]

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "590178985629",
+    "project_id": "auto-clicker---tap-automatic",
+    "storage_bucket": "auto-clicker---tap-automatic.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:590178985629:android:84814106352fc425c95674",
+        "android_client_info": {
+          "package_name": "com.smartclick.auto.tap.autoclicker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvFKTn-I8t2qWVpZYggjlFHcElWitElEs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

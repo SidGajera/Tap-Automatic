@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission
+        android:name="android.permission.BIND_ACCESSIBILITY_SERVICE"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION" />
+
+    <!-- Accessibility Service -->
+
+    <!-- Optional manufacturer-specific badge permissions (if needed) -->
+    <!-- Removed for brevity: all badge-related permissions -->
+
+    <!-- For Firebase and dynamic broadcast receivers -->
+    <permission
+        android:name="com.smartclick.auto.tap.autoclicker.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:protectionLevel="signature" />
+    <uses-permission android:name="com.smartclick.auto.tap.autoclicker.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+
+    <!-- App declaration -->
+    <application
+        android:name="com.smartclick.auto.tap.autoclicker.MyApplication"
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/appicon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AutoClicker"
+        android:usesCleartextTraffic="true"
+        tools:ignore="NewApi"
+        tools:targetApi="28">
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+
+        <property
+            android:name="android.adservices.AD_SERVICES_CONFIG"
+            android:resource="@xml/gma_ad_services_config"
+            tools:replace="android:resource" />
+
+        <property
+            android:name="android.adservices.AD_SERVICES_CONFIG"
+            android:resource="@xml/gma_ad_services_config"
+            tools:replace="android:resource" />
+
+        <!-- Main launcher activity -->
+        <activity
+            android:name="com.smartclick.auto.tap.autoclicker.activity.SplashActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:screenOrientation="fullSensor">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.smartclick.auto.tap.autoclicker.activity.ConfigurationActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="false"
+            android:screenOrientation="fullSensor"
+            tools:ignore="DiscouragedApi" />
+        <activity
+            android:name="com.smartclick.auto.tap.autoclicker.activity.GuideActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="false"
+            android:screenOrientation="fullSensor"
+            tools:ignore="DiscouragedApi" />
+        <activity
+            android:name="com.smartclick.auto.tap.autoclicker.activity.MultiModeInstructionActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="false"
+            android:screenOrientation="fullSensor"
+            tools:ignore="DiscouragedApi" />
+        <activity
+            android:name="com.smartclick.auto.tap.autoclicker.activity.MultiModeSettingActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="false"
+            android:screenOrientation="fullSensor"
+            tools:ignore="DiscouragedApi" />
+        <activity
+            android:name="com.smartclick.auto.tap.autoclicker.activity.SingleModeInstructionActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="false"
+            android:screenOrientation="fullSensor"
+            tools:ignore="DiscouragedApi" />
+        <activity
+            android:name="com.smartclick.auto.tap.autoclicker.activity.SingleModeSettingActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="false"
+            android:screenOrientation="fullSensor"
+            tools:ignore="DiscouragedApi" />
+        <activity
+            android:name="com.smartclick.auto.tap.autoclicker.activity.PrivacyPolicyActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="false"
+            android:screenOrientation="fullSensor"
+            tools:ignore="DiscouragedApi" />
+        <activity
+            android:name="com.smartclick.auto.tap.autoclicker.activity.PermissionActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="false"
+            android:screenOrientation="fullSensor"
+            tools:ignore="DiscouragedApi" />
+        <activity
+            android:name="com.smartclick.auto.tap.autoclicker.activity.StartActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="false"
+            android:screenOrientation="fullSensor"
+            tools:ignore="DiscouragedApi" />
+        <activity
+            android:name="com.smartclick.auto.tap.autoclicker.activity.IntroActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="false"
+            android:screenOrientation="fullSensor"
+            tools:ignore="DiscouragedApi" />
+        <activity
+            android:name="com.smartclick.auto.tap.autoclicker.activity.LanguageActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="false"
+            android:screenOrientation="fullSensor"
+            tools:ignore="DiscouragedApi" />
+
+        <activity
+            android:name="demo.ads.ExitScreen"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="false"
+            android:screenOrientation="fullSensor"
+            tools:ignore="DiscouragedApi" />
+        <service
+            android:name=".notification.MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <service
+            android:name=".service.SingleModeService"
+            android:enabled="true"
+            android:exported="false"
+            android:stopWithTask="true"
+            android:foregroundServiceType="shortService" />
+
+        <service
+            android:name=".service.MultiModeService"
+            android:enabled="true"
+            android:exported="false"
+            android:stopWithTask="true"
+            android:foregroundServiceType="shortService" />
+
+        <service
+            android:name="com.smartclick.auto.tap.autoclicker.service.AutoClicker"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:stopWithTask="true"
+            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService" />
+            </intent-filter>
+            <meta-data
+                android:name="android.accessibilityservice"
+                android:resource="@xml/config" />
+        </service>
+
+        <receiver
+            android:name=".service.BootReceiver"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

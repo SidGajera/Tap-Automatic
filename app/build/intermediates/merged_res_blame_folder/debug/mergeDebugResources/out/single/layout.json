@@ -1,0 +1,186 @@
+[
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-mergeDebugResources-5:/layout/single_mode_setting_dialog.xml",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/single_mode_setting_dialog.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-mergeDebugResources-5:/layout/activity_web.xml",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/activity_web.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-mergeDebugResources-5:/layout/single_mode_target.xml",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/single_mode_target.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-mergeDebugResources-5:/layout/save_list_adapter.xml",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/save_list_adapter.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-mergeDebugResources-5:/layout/time_picker_dialog.xml",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/time_picker_dialog.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-mergeDebugResources-5:/layout/multi_mode_layout.xml",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/multi_mode_layout.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-mergeDebugResources-5:/layout/rate_dialog.xml",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/rate_dialog.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-mergeDebugResources-5:/layout/admob_empty_layout.xml",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/admob_empty_layout.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-mergeDebugResources-5:/layout/activity_intro.xml",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/activity_intro.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-mergeDebugResources-5:/layout/activity_permission.xml",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/activity_permission.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-mergeDebugResources-5:/layout/pcm_more_dialog.xml",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/pcm_more_dialog.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-mergeDebugResources-5:/layout/delete_dialog.xml",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/delete_dialog.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-mergeDebugResources-5:/layout/configuration_layout.xml",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/configuration_layout.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-mergeDebugResources-5:/layout/item_google_native_ad_outline.xml",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/item_google_native_ad_outline.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-mergeDebugResources-5:/layout/activity_privacy_policy.xml",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/activity_privacy_policy.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-mergeDebugResources-5:/layout/activity_single_mode_instruction.xml",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/activity_single_mode_instruction.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-mergeDebugResources-5:/layout/multi_mode_setting_dialog.xml",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/multi_mode_setting_dialog.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-mergeDebugResources-5:/layout/activity_configuration.xml",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/activity_configuration.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-mergeDebugResources-5:/layout/activity_start.xml",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/activity_start.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-mergeDebugResources-5:/layout/activity_multi_mode_setting.xml",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/activity_multi_mode_setting.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-mergeDebugResources-5:/layout/custom_dialog.xml",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-mergeDebugResources-5:/layout/activity_multi_mode_instruction.xml",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/activity_multi_mode_instruction.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-mergeDebugResources-5:/layout/edit_configuration_dialog.xml",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/edit_configuration_dialog.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-mergeDebugResources-5:/layout/activity_single_mode_setting.xml",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/activity_single_mode_setting.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-mergeDebugResources-5:/layout/big_ad_unified.xml",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/big_ad_unified.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-mergeDebugResources-5:/layout/native_ad_layout.xml",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/native_ad_layout.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-mergeDebugResources-5:/layout/intro_row.xml",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/intro_row.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-mergeDebugResources-5:/layout/exit_screen.xml",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/exit_screen.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-mergeDebugResources-5:/layout/multi_mode_target.xml",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/multi_mode_target.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-mergeDebugResources-5:/layout/activity_splash.xml",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-mergeDebugResources-5:/layout/second_start.xml",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/second_start.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-mergeDebugResources-5:/layout/ad_unified.xml",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/ad_unified.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-mergeDebugResources-5:/layout/loading_dialog.xml",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/loading_dialog.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-mergeDebugResources-5:/layout/save_dialog.xml",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/save_dialog.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-mergeDebugResources-5:/layout/language_layout.xml",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/language_layout.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-mergeDebugResources-5:/layout/activity_language.xml",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/activity_language.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-mergeDebugResources-5:/layout/small_ad_unified.xml",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/small_ad_unified.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-mergeDebugResources-5:/layout/activity_guide.xml",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/activity_guide.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-mergeDebugResources-5:/layout/save_list_dialog.xml",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/save_list_dialog.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-mergeDebugResources-5:/layout/activity_main.xml",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-mergeDebugResources-5:/layout/line_view.xml",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/line_view.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-mergeDebugResources-5:/layout/assecc_dialog_layout.xml",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/assecc_dialog_layout.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-mergeDebugResources-5:/layout/activity_first.xml",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/activity_first.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-mergeDebugResources-5:/layout/banner_layout.xml",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/banner_layout.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-mergeDebugResources-5:/layout/multi_mode_target_two.xml",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/multi_mode_target_two.xml"
+    },
+    {
+        "merged": "com.smartclick.auto.tap.autoclicker.app-mergeDebugResources-5:/layout/single_mode_layout.xml",
+        "source": "com.smartclick.auto.tap.autoclicker.app-main-8:/layout/single_mode_layout.xml"
+    }
+]

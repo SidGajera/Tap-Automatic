@@ -1,0 +1,912 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.smartclick.auto.tap.autoclicker"
+4    android:versionCode="7"
+5    android:versionName="1.0.6" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="35" />
+10
+11    <!-- Permissions -->
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:6:5-67
+12-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:7:5-79
+13-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:7:22-76
+14    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+14-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:8:5-76
+14-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:8:22-73
+15    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+15-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:9:5-79
+15-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:9:22-76
+16    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+16-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:10:5-78
+16-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:10:22-75
+17    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+17-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:11:5-77
+17-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:11:22-74
+18    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+18-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:12:5-76
+18-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:12:22-73
+19    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+19-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:13:5-75
+19-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:13:22-72
+20    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+20-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:14:5-75
+20-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:14:22-72
+21    <uses-permission android:name="android.permission.VIBRATE" />
+21-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:15:5-66
+21-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:15:22-63
+22    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+22-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:16:5-81
+22-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:16:22-78
+23    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+23-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:17:5-80
+23-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:17:22-77
+24    <uses-permission android:name="android.permission.WAKE_LOCK" />
+24-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:18:5-68
+24-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:18:22-65
+25    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+25-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:19:5-81
+25-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:19:22-78
+26    <uses-permission android:name="android.permission.BIND_ACCESSIBILITY_SERVICE" />
+26-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:20:5-22:47
+26-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:21:9-69
+27    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION" />
+27-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:23:5-94
+27-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:23:22-91
+28
+29    <!-- Accessibility Service -->
+30
+31
+32    <!-- Optional manufacturer-specific badge permissions (if needed) -->
+33    <!-- Removed for brevity: all badge-related permissions -->
+34
+35
+36    <!-- For Firebase and dynamic broadcast receivers -->
+37    <permission
+37-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:31:5-33:47
+38        android:name="com.smartclick.auto.tap.autoclicker.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+38-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:32:9-100
+39        android:protectionLevel="signature" />
+39-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:33:9-44
+40
+41    <uses-permission android:name="com.smartclick.auto.tap.autoclicker.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+41-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:34:5-116
+41-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:34:22-113
+42    <!-- Required by older versions of Google Play services to create IID tokens -->
+43    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+43-->[com.google.firebase:firebase-messaging:23.4.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\db69fbf82cac0ba06afed4d0eaee921f\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:26:5-82
+43-->[com.google.firebase:firebase-messaging:23.4.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\db69fbf82cac0ba06afed4d0eaee921f\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:26:22-79
+44    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
+44-->[com.google.android.gms:play-services-ads-lite:22.4.0] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\816f55e748a43d9eedb0875c34d277df\transformed\play-services-ads-lite-22.4.0\AndroidManifest.xml:27:5-82
+44-->[com.google.android.gms:play-services-ads-lite:22.4.0] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\816f55e748a43d9eedb0875c34d277df\transformed\play-services-ads-lite-22.4.0\AndroidManifest.xml:27:22-79
+45    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+45-->[com.google.android.gms:play-services-ads-lite:22.4.0] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\816f55e748a43d9eedb0875c34d277df\transformed\play-services-ads-lite-22.4.0\AndroidManifest.xml:28:5-88
+45-->[com.google.android.gms:play-services-ads-lite:22.4.0] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\816f55e748a43d9eedb0875c34d277df\transformed\play-services-ads-lite-22.4.0\AndroidManifest.xml:28:22-85
+46    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_TOPICS" /> <!-- Android package visibility setting -->
+46-->[com.google.android.gms:play-services-ads-lite:22.4.0] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\816f55e748a43d9eedb0875c34d277df\transformed\play-services-ads-lite-22.4.0\AndroidManifest.xml:29:5-83
+46-->[com.google.android.gms:play-services-ads-lite:22.4.0] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\816f55e748a43d9eedb0875c34d277df\transformed\play-services-ads-lite-22.4.0\AndroidManifest.xml:29:22-80
+47    <queries>
+47-->[com.google.android.gms:play-services-ads-lite:22.4.0] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\816f55e748a43d9eedb0875c34d277df\transformed\play-services-ads-lite-22.4.0\AndroidManifest.xml:35:5-51:15
+48
+49        <!-- For browser content -->
+50        <intent>
+50-->[com.google.android.gms:play-services-ads-lite:22.4.0] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\816f55e748a43d9eedb0875c34d277df\transformed\play-services-ads-lite-22.4.0\AndroidManifest.xml:38:9-44:18
+51            <action android:name="android.intent.action.VIEW" />
+51-->[com.google.android.gms:play-services-ads-lite:22.4.0] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\816f55e748a43d9eedb0875c34d277df\transformed\play-services-ads-lite-22.4.0\AndroidManifest.xml:39:13-65
+51-->[com.google.android.gms:play-services-ads-lite:22.4.0] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\816f55e748a43d9eedb0875c34d277df\transformed\play-services-ads-lite-22.4.0\AndroidManifest.xml:39:21-62
+52
+53            <category android:name="android.intent.category.BROWSABLE" />
+53-->[com.google.android.gms:play-services-ads-lite:22.4.0] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\816f55e748a43d9eedb0875c34d277df\transformed\play-services-ads-lite-22.4.0\AndroidManifest.xml:41:13-74
+53-->[com.google.android.gms:play-services-ads-lite:22.4.0] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\816f55e748a43d9eedb0875c34d277df\transformed\play-services-ads-lite-22.4.0\AndroidManifest.xml:41:23-71
+54
+55            <data android:scheme="https" />
+55-->[com.google.android.gms:play-services-ads-lite:22.4.0] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\816f55e748a43d9eedb0875c34d277df\transformed\play-services-ads-lite-22.4.0\AndroidManifest.xml:43:13-44
+55-->[com.google.android.gms:play-services-ads-lite:22.4.0] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\816f55e748a43d9eedb0875c34d277df\transformed\play-services-ads-lite-22.4.0\AndroidManifest.xml:43:19-41
+56        </intent>
+57        <!-- End of browser content -->
+58        <!-- For CustomTabsService -->
+59        <intent>
+59-->[com.google.android.gms:play-services-ads-lite:22.4.0] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\816f55e748a43d9eedb0875c34d277df\transformed\play-services-ads-lite-22.4.0\AndroidManifest.xml:47:9-49:18
+60            <action android:name="android.support.customtabs.action.CustomTabsService" />
+60-->[com.google.android.gms:play-services-ads-lite:22.4.0] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\816f55e748a43d9eedb0875c34d277df\transformed\play-services-ads-lite-22.4.0\AndroidManifest.xml:48:13-90
+60-->[com.google.android.gms:play-services-ads-lite:22.4.0] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\816f55e748a43d9eedb0875c34d277df\transformed\play-services-ads-lite-22.4.0\AndroidManifest.xml:48:21-87
+61        </intent>
+62        <!-- End of CustomTabsService -->
+63    </queries>
+64
+65    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+65-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:26:5-77
+65-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:26:22-74
+66    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- App declaration -->
+66-->[com.google.android.gms:play-services-measurement:21.5.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\552138e92500a1ebecf620a30d16f7a4\transformed\play-services-measurement-21.5.1\AndroidManifest.xml:26:5-110
+66-->[com.google.android.gms:play-services-measurement:21.5.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\552138e92500a1ebecf620a30d16f7a4\transformed\play-services-measurement-21.5.1\AndroidManifest.xml:26:22-107
+67    <application
+67-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:37:5-193:19
+68        android:name="com.smartclick.auto.tap.autoclicker.MyApplication"
+68-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:38:9-73
+69        android:allowBackup="true"
+69-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:39:9-35
+70        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+70-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:40:9-77
+71        android:debuggable="true"
+72        android:extractNativeLibs="false"
+73        android:icon="@mipmap/ic_launcher"
+73-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:41:9-43
+74        android:label="@string/app_name"
+74-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:42:9-41
+75        android:roundIcon="@drawable/appicon"
+75-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:43:9-46
+76        android:supportsRtl="true"
+76-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:44:9-35
+77        android:testOnly="true"
+78        android:theme="@style/Theme.AutoClicker"
+78-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:45:9-49
+79        android:usesCleartextTraffic="true" >
+79-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:46:9-44
+80        <meta-data
+80-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:50:9-52:70
+81            android:name="com.google.android.gms.ads.APPLICATION_ID"
+81-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:51:13-69
+82            android:value="ca-app-pub-3940256099942544~3347511713" />
+82-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:52:13-67
+83
+84        <property
+84-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:54:9-57:48
+85            android:name="android.adservices.AD_SERVICES_CONFIG"
+85-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:55:13-65
+86            android:resource="@xml/gma_ad_services_config" />
+86-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:56:13-59
+87        <property
+87-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:54:9-57:48
+88            android:name="android.adservices.AD_SERVICES_CONFIG"
+88-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:55:13-65
+89            android:resource="@xml/gma_ad_services_config" />
+89-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:56:13-59
+90
+91        <!-- Main launcher activity -->
+92        <activity
+92-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:65:9-74:20
+93            android:name="com.smartclick.auto.tap.autoclicker.activity.SplashActivity"
+93-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:66:13-87
+94            android:configChanges="keyboardHidden|orientation|screenSize"
+94-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:67:13-74
+95            android:exported="true"
+95-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:68:13-36
+96            android:screenOrientation="fullSensor" >
+96-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:69:13-51
+97            <intent-filter>
+97-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:70:13-73:29
+98                <action android:name="android.intent.action.MAIN" />
+98-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:71:17-69
+98-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:71:25-66
+99
+100                <category android:name="android.intent.category.LAUNCHER" />
+100-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:72:17-77
+100-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:72:27-74
+101            </intent-filter>
+102        </activity>
+103        <activity
+103-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:76:9-81:45
+104            android:name="com.smartclick.auto.tap.autoclicker.activity.ConfigurationActivity"
+104-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:77:13-94
+105            android:configChanges="keyboardHidden|orientation|screenSize"
+105-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:78:13-74
+106            android:exported="false"
+106-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:79:13-37
+107            android:screenOrientation="fullSensor" />
+107-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:80:13-51
+108        <activity
+108-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:82:9-87:45
+109            android:name="com.smartclick.auto.tap.autoclicker.activity.GuideActivity"
+109-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:83:13-86
+110            android:configChanges="keyboardHidden|orientation|screenSize"
+110-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:84:13-74
+111            android:exported="false"
+111-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:85:13-37
+112            android:screenOrientation="fullSensor" />
+112-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:86:13-51
+113        <activity
+113-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:88:9-93:45
+114            android:name="com.smartclick.auto.tap.autoclicker.activity.MultiModeInstructionActivity"
+114-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:89:13-101
+115            android:configChanges="keyboardHidden|orientation|screenSize"
+115-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:90:13-74
+116            android:exported="false"
+116-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:91:13-37
+117            android:screenOrientation="fullSensor" />
+117-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:92:13-51
+118        <activity
+118-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:94:9-99:45
+119            android:name="com.smartclick.auto.tap.autoclicker.activity.MultiModeSettingActivity"
+119-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:95:13-97
+120            android:configChanges="keyboardHidden|orientation|screenSize"
+120-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:96:13-74
+121            android:exported="false"
+121-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:97:13-37
+122            android:screenOrientation="fullSensor" />
+122-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:98:13-51
+123        <activity
+123-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:100:9-105:45
+124            android:name="com.smartclick.auto.tap.autoclicker.activity.SingleModeInstructionActivity"
+124-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:101:13-102
+125            android:configChanges="keyboardHidden|orientation|screenSize"
+125-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:102:13-74
+126            android:exported="false"
+126-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:103:13-37
+127            android:screenOrientation="fullSensor" />
+127-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:104:13-51
+128        <activity
+128-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:106:9-111:45
+129            android:name="com.smartclick.auto.tap.autoclicker.activity.SingleModeSettingActivity"
+129-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:107:13-98
+130            android:configChanges="keyboardHidden|orientation|screenSize"
+130-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:108:13-74
+131            android:exported="false"
+131-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:109:13-37
+132            android:screenOrientation="fullSensor" />
+132-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:110:13-51
+133        <activity
+133-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:112:9-117:45
+134            android:name="com.smartclick.auto.tap.autoclicker.activity.PrivacyPolicyActivity"
+134-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:113:13-94
+135            android:configChanges="keyboardHidden|orientation|screenSize"
+135-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:114:13-74
+136            android:exported="false"
+136-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:115:13-37
+137            android:screenOrientation="fullSensor" />
+137-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:116:13-51
+138        <activity
+138-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:118:9-123:45
+139            android:name="com.smartclick.auto.tap.autoclicker.activity.PermissionActivity"
+139-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:119:13-91
+140            android:configChanges="keyboardHidden|orientation|screenSize"
+140-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:120:13-74
+141            android:exported="false"
+141-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:121:13-37
+142            android:screenOrientation="fullSensor" />
+142-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:122:13-51
+143        <activity
+143-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:124:9-129:45
+144            android:name="com.smartclick.auto.tap.autoclicker.activity.StartActivity"
+144-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:125:13-86
+145            android:configChanges="keyboardHidden|orientation|screenSize"
+145-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:126:13-74
+146            android:exported="false"
+146-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:127:13-37
+147            android:screenOrientation="fullSensor" />
+147-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:128:13-51
+148        <activity
+148-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:130:9-135:45
+149            android:name="com.smartclick.auto.tap.autoclicker.activity.IntroActivity"
+149-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:131:13-86
+150            android:configChanges="keyboardHidden|orientation|screenSize"
+150-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:132:13-74
+151            android:exported="false"
+151-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:133:13-37
+152            android:screenOrientation="fullSensor" />
+152-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:134:13-51
+153        <activity
+153-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:136:9-141:45
+154            android:name="com.smartclick.auto.tap.autoclicker.activity.LanguageActivity"
+154-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:137:13-89
+155            android:configChanges="keyboardHidden|orientation|screenSize"
+155-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:138:13-74
+156            android:exported="false"
+156-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:139:13-37
+157            android:screenOrientation="fullSensor" />
+157-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:140:13-51
+158        <activity
+158-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:143:9-148:45
+159            android:name="demo.ads.ExitScreen"
+159-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:144:13-47
+160            android:configChanges="keyboardHidden|orientation|screenSize"
+160-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:145:13-74
+161            android:exported="false"
+161-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:146:13-37
+162            android:screenOrientation="fullSensor" />
+162-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:147:13-51
+163
+164        <service
+164-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:149:9-155:19
+165            android:name="com.smartclick.auto.tap.autoclicker.notification.MyFirebaseMessagingService"
+165-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:150:13-68
+166            android:exported="false" >
+166-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:151:13-37
+167            <intent-filter>
+167-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:152:13-154:29
+168                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+168-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:153:17-78
+168-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:153:25-75
+169            </intent-filter>
+170        </service>
+171        <service
+171-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:157:9-162:60
+172            android:name="com.smartclick.auto.tap.autoclicker.service.SingleModeService"
+172-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:158:13-54
+173            android:enabled="true"
+173-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:159:13-35
+174            android:exported="false"
+174-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:160:13-37
+175            android:foregroundServiceType="shortService"
+175-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:162:13-57
+176            android:stopWithTask="true" />
+176-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:161:13-40
+177        <service
+177-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:164:9-169:60
+178            android:name="com.smartclick.auto.tap.autoclicker.service.MultiModeService"
+178-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:165:13-53
+179            android:enabled="true"
+179-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:166:13-35
+180            android:exported="false"
+180-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:167:13-37
+181            android:foregroundServiceType="shortService"
+181-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:169:13-57
+182            android:stopWithTask="true" />
+182-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:168:13-40
+183        <service
+183-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:171:9-183:19
+184            android:name="com.smartclick.auto.tap.autoclicker.service.AutoClicker"
+184-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:172:13-83
+185            android:exported="false"
+185-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:173:13-37
+186            android:label="@string/app_name"
+186-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:174:13-45
+187            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE"
+187-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:176:13-79
+188            android:stopWithTask="true" >
+188-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:175:13-40
+189            <intent-filter>
+189-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:177:13-179:29
+190                <action android:name="android.accessibilityservice.AccessibilityService" />
+190-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:178:17-92
+190-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:178:25-89
+191            </intent-filter>
+192
+193            <meta-data
+193-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:180:13-182:50
+194                android:name="android.accessibilityservice"
+194-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:181:17-60
+195                android:resource="@xml/config" />
+195-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:182:17-47
+196        </service>
+197
+198        <receiver
+198-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:185:9-192:20
+199            android:name="com.smartclick.auto.tap.autoclicker.service.BootReceiver"
+199-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:186:13-49
+200            android:enabled="true"
+200-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:187:13-35
+201            android:exported="false" >
+201-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:188:13-37
+202            <intent-filter>
+202-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:189:13-191:29
+203                <action android:name="android.intent.action.BOOT_COMPLETED" />
+203-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:190:17-79
+203-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:190:25-76
+204            </intent-filter>
+205        </receiver>
+206        <receiver
+206-->[com.google.firebase:firebase-messaging:23.4.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\db69fbf82cac0ba06afed4d0eaee921f\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:29:9-40:20
+207            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+207-->[com.google.firebase:firebase-messaging:23.4.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\db69fbf82cac0ba06afed4d0eaee921f\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:30:13-78
+208            android:exported="true"
+208-->[com.google.firebase:firebase-messaging:23.4.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\db69fbf82cac0ba06afed4d0eaee921f\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:31:13-36
+209            android:permission="com.google.android.c2dm.permission.SEND" >
+209-->[com.google.firebase:firebase-messaging:23.4.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\db69fbf82cac0ba06afed4d0eaee921f\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:32:13-73
+210            <intent-filter>
+210-->[com.google.firebase:firebase-messaging:23.4.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\db69fbf82cac0ba06afed4d0eaee921f\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:33:13-35:29
+211                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+211-->[com.google.firebase:firebase-messaging:23.4.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\db69fbf82cac0ba06afed4d0eaee921f\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:34:17-81
+211-->[com.google.firebase:firebase-messaging:23.4.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\db69fbf82cac0ba06afed4d0eaee921f\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:34:25-78
+212            </intent-filter>
+213
+214            <meta-data
+214-->[com.google.firebase:firebase-messaging:23.4.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\db69fbf82cac0ba06afed4d0eaee921f\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:37:13-39:40
+215                android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED"
+215-->[com.google.firebase:firebase-messaging:23.4.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\db69fbf82cac0ba06afed4d0eaee921f\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:38:17-92
+216                android:value="true" />
+216-->[com.google.firebase:firebase-messaging:23.4.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\db69fbf82cac0ba06afed4d0eaee921f\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:39:17-37
+217        </receiver>
+218        <!--
+219             FirebaseMessagingService performs security checks at runtime,
+220             but set to not exported to explicitly avoid allowing another app to call it.
+221        -->
+222        <service
+222-->[com.google.firebase:firebase-messaging:23.4.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\db69fbf82cac0ba06afed4d0eaee921f\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:46:9-53:19
+223            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+223-->[com.google.firebase:firebase-messaging:23.4.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\db69fbf82cac0ba06afed4d0eaee921f\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:47:13-82
+224            android:directBootAware="true"
+224-->[com.google.firebase:firebase-messaging:23.4.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\db69fbf82cac0ba06afed4d0eaee921f\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:48:13-43
+225            android:exported="false" >
+225-->[com.google.firebase:firebase-messaging:23.4.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\db69fbf82cac0ba06afed4d0eaee921f\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:49:13-37
+226            <intent-filter android:priority="-500" >
+226-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:152:13-154:29
+227                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+227-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:153:17-78
+227-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:153:25-75
+228            </intent-filter>
+229        </service>
+230        <service
+230-->[com.google.firebase:firebase-messaging:23.4.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\db69fbf82cac0ba06afed4d0eaee921f\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:54:9-63:19
+231            android:name="com.google.firebase.components.ComponentDiscoveryService"
+231-->[com.google.firebase:firebase-messaging:23.4.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\db69fbf82cac0ba06afed4d0eaee921f\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:55:13-84
+232            android:directBootAware="true"
+232-->[com.google.firebase:firebase-common:20.4.2] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\db86748b9e97c7b5488fd2025ebeca35\transformed\firebase-common-20.4.2\AndroidManifest.xml:32:13-43
+233            android:exported="false" >
+233-->[com.google.firebase:firebase-messaging:23.4.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\db69fbf82cac0ba06afed4d0eaee921f\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:56:13-37
+234            <meta-data
+234-->[com.google.firebase:firebase-messaging:23.4.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\db69fbf82cac0ba06afed4d0eaee921f\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:57:13-59:85
+235                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar"
+235-->[com.google.firebase:firebase-messaging:23.4.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\db69fbf82cac0ba06afed4d0eaee921f\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:58:17-122
+236                android:value="com.google.firebase.components.ComponentRegistrar" />
+236-->[com.google.firebase:firebase-messaging:23.4.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\db69fbf82cac0ba06afed4d0eaee921f\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:59:17-82
+237            <meta-data
+237-->[com.google.firebase:firebase-messaging:23.4.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\db69fbf82cac0ba06afed4d0eaee921f\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:60:13-62:85
+238                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+238-->[com.google.firebase:firebase-messaging:23.4.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\db69fbf82cac0ba06afed4d0eaee921f\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:61:17-119
+239                android:value="com.google.firebase.components.ComponentRegistrar" />
+239-->[com.google.firebase:firebase-messaging:23.4.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\db69fbf82cac0ba06afed4d0eaee921f\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:62:17-82
+240            <meta-data
+240-->[com.google.firebase:firebase-crashlytics:18.6.2] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\73f0ffa722b404b6581c15ac4d3c4f80\transformed\firebase-crashlytics-18.6.2\AndroidManifest.xml:15:13-17:85
+241                android:name="com.google.firebase.components:com.google.firebase.crashlytics.FirebaseCrashlyticsKtxRegistrar"
+241-->[com.google.firebase:firebase-crashlytics:18.6.2] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\73f0ffa722b404b6581c15ac4d3c4f80\transformed\firebase-crashlytics-18.6.2\AndroidManifest.xml:16:17-126
+242                android:value="com.google.firebase.components.ComponentRegistrar" />
+242-->[com.google.firebase:firebase-crashlytics:18.6.2] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\73f0ffa722b404b6581c15ac4d3c4f80\transformed\firebase-crashlytics-18.6.2\AndroidManifest.xml:17:17-82
+243            <meta-data
+243-->[com.google.firebase:firebase-crashlytics:18.6.2] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\73f0ffa722b404b6581c15ac4d3c4f80\transformed\firebase-crashlytics-18.6.2\AndroidManifest.xml:18:13-20:85
+244                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+244-->[com.google.firebase:firebase-crashlytics:18.6.2] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\73f0ffa722b404b6581c15ac4d3c4f80\transformed\firebase-crashlytics-18.6.2\AndroidManifest.xml:19:17-115
+245                android:value="com.google.firebase.components.ComponentRegistrar" />
+245-->[com.google.firebase:firebase-crashlytics:18.6.2] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\73f0ffa722b404b6581c15ac4d3c4f80\transformed\firebase-crashlytics-18.6.2\AndroidManifest.xml:20:17-82
+246            <meta-data
+246-->[com.google.android.gms:play-services-measurement-api:21.5.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\d3e7593d91b5d55e2796b25a184fdd1c\transformed\play-services-measurement-api-21.5.1\AndroidManifest.xml:37:13-39:85
+247                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+247-->[com.google.android.gms:play-services-measurement-api:21.5.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\d3e7593d91b5d55e2796b25a184fdd1c\transformed\play-services-measurement-api-21.5.1\AndroidManifest.xml:38:17-139
+248                android:value="com.google.firebase.components.ComponentRegistrar" />
+248-->[com.google.android.gms:play-services-measurement-api:21.5.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\d3e7593d91b5d55e2796b25a184fdd1c\transformed\play-services-measurement-api-21.5.1\AndroidManifest.xml:39:17-82
+249            <meta-data
+249-->[com.google.firebase:firebase-sessions:1.2.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\6c64bb2f92b1b1d9610082a5fe9f1f6c\transformed\firebase-sessions-1.2.1\AndroidManifest.xml:29:13-31:85
+250                android:name="com.google.firebase.components:com.google.firebase.sessions.FirebaseSessionsRegistrar"
+250-->[com.google.firebase:firebase-sessions:1.2.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\6c64bb2f92b1b1d9610082a5fe9f1f6c\transformed\firebase-sessions-1.2.1\AndroidManifest.xml:30:17-117
+251                android:value="com.google.firebase.components.ComponentRegistrar" />
+251-->[com.google.firebase:firebase-sessions:1.2.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\6c64bb2f92b1b1d9610082a5fe9f1f6c\transformed\firebase-sessions-1.2.1\AndroidManifest.xml:31:17-82
+252            <meta-data
+252-->[com.google.firebase:firebase-installations:17.2.0] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\37d2bc9b1c4418c40bf9d43ffe765a71\transformed\firebase-installations-17.2.0\AndroidManifest.xml:15:13-17:85
+253                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+253-->[com.google.firebase:firebase-installations:17.2.0] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\37d2bc9b1c4418c40bf9d43ffe765a71\transformed\firebase-installations-17.2.0\AndroidManifest.xml:16:17-130
+254                android:value="com.google.firebase.components.ComponentRegistrar" />
+254-->[com.google.firebase:firebase-installations:17.2.0] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\37d2bc9b1c4418c40bf9d43ffe765a71\transformed\firebase-installations-17.2.0\AndroidManifest.xml:17:17-82
+255            <meta-data
+255-->[com.google.firebase:firebase-installations:17.2.0] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\37d2bc9b1c4418c40bf9d43ffe765a71\transformed\firebase-installations-17.2.0\AndroidManifest.xml:18:13-20:85
+256                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+256-->[com.google.firebase:firebase-installations:17.2.0] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\37d2bc9b1c4418c40bf9d43ffe765a71\transformed\firebase-installations-17.2.0\AndroidManifest.xml:19:17-127
+257                android:value="com.google.firebase.components.ComponentRegistrar" />
+257-->[com.google.firebase:firebase-installations:17.2.0] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\37d2bc9b1c4418c40bf9d43ffe765a71\transformed\firebase-installations-17.2.0\AndroidManifest.xml:20:17-82
+258            <meta-data
+258-->[com.google.firebase:firebase-common-ktx:20.4.2] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\0f24d60783580b0f3cc0e850a32f3015\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:12:13-14:85
+259                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+259-->[com.google.firebase:firebase-common-ktx:20.4.2] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\0f24d60783580b0f3cc0e850a32f3015\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:13:17-116
+260                android:value="com.google.firebase.components.ComponentRegistrar" />
+260-->[com.google.firebase:firebase-common-ktx:20.4.2] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\0f24d60783580b0f3cc0e850a32f3015\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:14:17-82
+261            <meta-data
+261-->[com.google.firebase:firebase-common:20.4.2] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\db86748b9e97c7b5488fd2025ebeca35\transformed\firebase-common-20.4.2\AndroidManifest.xml:35:13-37:85
+262                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+262-->[com.google.firebase:firebase-common:20.4.2] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\db86748b9e97c7b5488fd2025ebeca35\transformed\firebase-common-20.4.2\AndroidManifest.xml:36:17-109
+263                android:value="com.google.firebase.components.ComponentRegistrar" />
+263-->[com.google.firebase:firebase-common:20.4.2] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\db86748b9e97c7b5488fd2025ebeca35\transformed\firebase-common-20.4.2\AndroidManifest.xml:37:17-82
+264            <meta-data
+264-->[com.google.firebase:firebase-datatransport:18.1.8] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\f0f5935b9eb1a8475179cb926a762d3b\transformed\firebase-datatransport-18.1.8\AndroidManifest.xml:27:13-29:85
+265                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+265-->[com.google.firebase:firebase-datatransport:18.1.8] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\f0f5935b9eb1a8475179cb926a762d3b\transformed\firebase-datatransport-18.1.8\AndroidManifest.xml:28:17-115
+266                android:value="com.google.firebase.components.ComponentRegistrar" />
+266-->[com.google.firebase:firebase-datatransport:18.1.8] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\f0f5935b9eb1a8475179cb926a762d3b\transformed\firebase-datatransport-18.1.8\AndroidManifest.xml:29:17-82
+267        </service> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+268        <activity
+268-->[com.google.android.gms:play-services-ads-lite:22.4.0] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\816f55e748a43d9eedb0875c34d277df\transformed\play-services-ads-lite-22.4.0\AndroidManifest.xml:56:9-61:43
+269            android:name="com.google.android.gms.ads.AdActivity"
+269-->[com.google.android.gms:play-services-ads-lite:22.4.0] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\816f55e748a43d9eedb0875c34d277df\transformed\play-services-ads-lite-22.4.0\AndroidManifest.xml:57:13-65
+270            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+270-->[com.google.android.gms:play-services-ads-lite:22.4.0] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\816f55e748a43d9eedb0875c34d277df\transformed\play-services-ads-lite-22.4.0\AndroidManifest.xml:58:13-122
+271            android:exported="false"
+271-->[com.google.android.gms:play-services-ads-lite:22.4.0] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\816f55e748a43d9eedb0875c34d277df\transformed\play-services-ads-lite-22.4.0\AndroidManifest.xml:59:13-37
+272            android:theme="@android:style/Theme.Translucent" />
+272-->[com.google.android.gms:play-services-ads-lite:22.4.0] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\816f55e748a43d9eedb0875c34d277df\transformed\play-services-ads-lite-22.4.0\AndroidManifest.xml:60:13-61
+273
+274        <provider
+274-->[com.google.android.gms:play-services-ads-lite:22.4.0] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\816f55e748a43d9eedb0875c34d277df\transformed\play-services-ads-lite-22.4.0\AndroidManifest.xml:63:9-68:43
+275            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+275-->[com.google.android.gms:play-services-ads-lite:22.4.0] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\816f55e748a43d9eedb0875c34d277df\transformed\play-services-ads-lite-22.4.0\AndroidManifest.xml:64:13-76
+276            android:authorities="com.smartclick.auto.tap.autoclicker.mobileadsinitprovider"
+276-->[com.google.android.gms:play-services-ads-lite:22.4.0] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\816f55e748a43d9eedb0875c34d277df\transformed\play-services-ads-lite-22.4.0\AndroidManifest.xml:65:13-73
+277            android:exported="false"
+277-->[com.google.android.gms:play-services-ads-lite:22.4.0] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\816f55e748a43d9eedb0875c34d277df\transformed\play-services-ads-lite-22.4.0\AndroidManifest.xml:66:13-37
+278            android:initOrder="100" />
+278-->[com.google.android.gms:play-services-ads-lite:22.4.0] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\816f55e748a43d9eedb0875c34d277df\transformed\play-services-ads-lite-22.4.0\AndroidManifest.xml:67:13-36
+279
+280        <service
+280-->[com.google.android.gms:play-services-ads-lite:22.4.0] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\816f55e748a43d9eedb0875c34d277df\transformed\play-services-ads-lite-22.4.0\AndroidManifest.xml:70:9-74:43
+281            android:name="com.google.android.gms.ads.AdService"
+281-->[com.google.android.gms:play-services-ads-lite:22.4.0] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\816f55e748a43d9eedb0875c34d277df\transformed\play-services-ads-lite-22.4.0\AndroidManifest.xml:71:13-64
+282            android:enabled="true"
+282-->[com.google.android.gms:play-services-ads-lite:22.4.0] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\816f55e748a43d9eedb0875c34d277df\transformed\play-services-ads-lite-22.4.0\AndroidManifest.xml:72:13-35
+283            android:exported="false" />
+283-->[com.google.android.gms:play-services-ads-lite:22.4.0] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\816f55e748a43d9eedb0875c34d277df\transformed\play-services-ads-lite-22.4.0\AndroidManifest.xml:73:13-37
+284
+285        <activity
+285-->[com.google.android.gms:play-services-ads-lite:22.4.0] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\816f55e748a43d9eedb0875c34d277df\transformed\play-services-ads-lite-22.4.0\AndroidManifest.xml:76:9-80:43
+286            android:name="com.google.android.gms.ads.OutOfContextTestingActivity"
+286-->[com.google.android.gms:play-services-ads-lite:22.4.0] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\816f55e748a43d9eedb0875c34d277df\transformed\play-services-ads-lite-22.4.0\AndroidManifest.xml:77:13-82
+287            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+287-->[com.google.android.gms:play-services-ads-lite:22.4.0] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\816f55e748a43d9eedb0875c34d277df\transformed\play-services-ads-lite-22.4.0\AndroidManifest.xml:78:13-122
+288            android:exported="false" />
+288-->[com.google.android.gms:play-services-ads-lite:22.4.0] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\816f55e748a43d9eedb0875c34d277df\transformed\play-services-ads-lite-22.4.0\AndroidManifest.xml:79:13-37
+289
+290        <provider
+290-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:29:9-37:20
+291            android:name="androidx.startup.InitializationProvider"
+291-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:30:13-67
+292            android:authorities="com.smartclick.auto.tap.autoclicker.androidx-startup"
+292-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:31:13-68
+293            android:exported="false" >
+293-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:32:13-37
+294            <meta-data
+294-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:34:13-36:52
+295                android:name="androidx.work.WorkManagerInitializer"
+295-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:35:17-68
+296                android:value="androidx.startup" />
+296-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:36:17-49
+297            <meta-data
+297-->[androidx.emoji2:emoji2:1.3.0] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\b51f5117bcc5c78103bc9bae199d647d\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+298                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+298-->[androidx.emoji2:emoji2:1.3.0] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\b51f5117bcc5c78103bc9bae199d647d\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+299                android:value="androidx.startup" />
+299-->[androidx.emoji2:emoji2:1.3.0] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\b51f5117bcc5c78103bc9bae199d647d\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+300            <meta-data
+300-->[androidx.lifecycle:lifecycle-process:2.9.0] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\cdb19953a8f5334339c528744b9aa261\transformed\lifecycle-process-2.9.0\AndroidManifest.xml:29:13-31:52
+301                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+301-->[androidx.lifecycle:lifecycle-process:2.9.0] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\cdb19953a8f5334339c528744b9aa261\transformed\lifecycle-process-2.9.0\AndroidManifest.xml:30:17-78
+302                android:value="androidx.startup" />
+302-->[androidx.lifecycle:lifecycle-process:2.9.0] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\cdb19953a8f5334339c528744b9aa261\transformed\lifecycle-process-2.9.0\AndroidManifest.xml:31:17-49
+303            <meta-data
+303-->[androidx.profileinstaller:profileinstaller:1.4.0] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\899245a48f9f56a1dc39a6a7af027aac\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+304                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+304-->[androidx.profileinstaller:profileinstaller:1.4.0] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\899245a48f9f56a1dc39a6a7af027aac\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+305                android:value="androidx.startup" />
+305-->[androidx.profileinstaller:profileinstaller:1.4.0] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\899245a48f9f56a1dc39a6a7af027aac\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+306        </provider>
+307
+308        <service
+308-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:39:9-45:35
+309            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+309-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:40:13-88
+310            android:directBootAware="false"
+310-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:41:13-44
+311            android:enabled="@bool/enable_system_alarm_service_default"
+311-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:42:13-72
+312            android:exported="false" />
+312-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:43:13-37
+313        <service
+313-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:46:9-52:35
+314            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+314-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:47:13-84
+315            android:directBootAware="false"
+315-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:48:13-44
+316            android:enabled="@bool/enable_system_job_service_default"
+316-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:49:13-70
+317            android:exported="true"
+317-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:50:13-36
+318            android:permission="android.permission.BIND_JOB_SERVICE" />
+318-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:51:13-69
+319        <service
+319-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:53:9-59:35
+320            android:name="androidx.work.impl.foreground.SystemForegroundService"
+320-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:54:13-81
+321            android:directBootAware="false"
+321-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:55:13-44
+322            android:enabled="@bool/enable_system_foreground_service_default"
+322-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:56:13-77
+323            android:exported="false" />
+323-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:57:13-37
+324
+325        <receiver
+325-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:61:9-66:35
+326            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+326-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:62:13-88
+327            android:directBootAware="false"
+327-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:63:13-44
+328            android:enabled="true"
+328-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:64:13-35
+329            android:exported="false" />
+329-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:65:13-37
+330        <receiver
+330-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:67:9-77:20
+331            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+331-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:68:13-106
+332            android:directBootAware="false"
+332-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:69:13-44
+333            android:enabled="false"
+333-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:70:13-36
+334            android:exported="false" >
+334-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:71:13-37
+335            <intent-filter>
+335-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:73:13-76:29
+336                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+336-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:74:17-87
+336-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:74:25-84
+337                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+337-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:75:17-90
+337-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:75:25-87
+338            </intent-filter>
+339        </receiver>
+340        <receiver
+340-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:78:9-88:20
+341            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+341-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:79:13-104
+342            android:directBootAware="false"
+342-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:80:13-44
+343            android:enabled="false"
+343-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:81:13-36
+344            android:exported="false" >
+344-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:82:13-37
+345            <intent-filter>
+345-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:84:13-87:29
+346                <action android:name="android.intent.action.BATTERY_OKAY" />
+346-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:85:17-77
+346-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:85:25-74
+347                <action android:name="android.intent.action.BATTERY_LOW" />
+347-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:86:17-76
+347-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:86:25-73
+348            </intent-filter>
+349        </receiver>
+350        <receiver
+350-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:89:9-99:20
+351            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+351-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:90:13-104
+352            android:directBootAware="false"
+352-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:91:13-44
+353            android:enabled="false"
+353-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:92:13-36
+354            android:exported="false" >
+354-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:93:13-37
+355            <intent-filter>
+355-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:95:13-98:29
+356                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+356-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:96:17-83
+356-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:96:25-80
+357                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+357-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:97:17-82
+357-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:97:25-79
+358            </intent-filter>
+359        </receiver>
+360        <receiver
+360-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:100:9-109:20
+361            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+361-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:101:13-103
+362            android:directBootAware="false"
+362-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:102:13-44
+363            android:enabled="false"
+363-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:103:13-36
+364            android:exported="false" >
+364-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:104:13-37
+365            <intent-filter>
+365-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:106:13-108:29
+366                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+366-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:107:17-79
+366-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:107:25-76
+367            </intent-filter>
+368        </receiver>
+369        <receiver
+369-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:110:9-121:20
+370            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+370-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:111:13-88
+371            android:directBootAware="false"
+371-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:112:13-44
+372            android:enabled="false"
+372-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:113:13-36
+373            android:exported="false" >
+373-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:114:13-37
+374            <intent-filter>
+374-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:116:13-120:29
+375                <action android:name="android.intent.action.BOOT_COMPLETED" />
+375-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:190:17-79
+375-->D:\AndroidStudioProjects\Client Apps\Auto Clicker\app\src\main\AndroidManifest.xml:190:25-76
+376                <action android:name="android.intent.action.TIME_SET" />
+376-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:118:17-73
+376-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:118:25-70
+377                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+377-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:119:17-81
+377-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:119:25-78
+378            </intent-filter>
+379        </receiver>
+380        <receiver
+380-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:122:9-131:20
+381            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+381-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:123:13-99
+382            android:directBootAware="false"
+382-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:124:13-44
+383            android:enabled="@bool/enable_system_alarm_service_default"
+383-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:125:13-72
+384            android:exported="false" >
+384-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:126:13-37
+385            <intent-filter>
+385-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:128:13-130:29
+386                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+386-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:129:17-98
+386-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:129:25-95
+387            </intent-filter>
+388        </receiver>
+389        <receiver
+389-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:132:9-142:20
+390            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+390-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:133:13-78
+391            android:directBootAware="false"
+391-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:134:13-44
+392            android:enabled="true"
+392-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:135:13-35
+393            android:exported="true"
+393-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:136:13-36
+394            android:permission="android.permission.DUMP" >
+394-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:137:13-57
+395            <intent-filter>
+395-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:139:13-141:29
+396                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+396-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:140:17-88
+396-->[androidx.work:work-runtime:2.10.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\4c6c4d1f711268133f99abcec18229f4\transformed\work-runtime-2.10.1\AndroidManifest.xml:140:25-85
+397            </intent-filter>
+398        </receiver>
+399        <receiver
+399-->[com.google.android.gms:play-services-measurement:21.5.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\552138e92500a1ebecf620a30d16f7a4\transformed\play-services-measurement-21.5.1\AndroidManifest.xml:29:9-33:20
+400            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+400-->[com.google.android.gms:play-services-measurement:21.5.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\552138e92500a1ebecf620a30d16f7a4\transformed\play-services-measurement-21.5.1\AndroidManifest.xml:30:13-85
+401            android:enabled="true"
+401-->[com.google.android.gms:play-services-measurement:21.5.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\552138e92500a1ebecf620a30d16f7a4\transformed\play-services-measurement-21.5.1\AndroidManifest.xml:31:13-35
+402            android:exported="false" >
+402-->[com.google.android.gms:play-services-measurement:21.5.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\552138e92500a1ebecf620a30d16f7a4\transformed\play-services-measurement-21.5.1\AndroidManifest.xml:32:13-37
+403        </receiver>
+404
+405        <service
+405-->[com.google.android.gms:play-services-measurement:21.5.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\552138e92500a1ebecf620a30d16f7a4\transformed\play-services-measurement-21.5.1\AndroidManifest.xml:35:9-38:40
+406            android:name="com.google.android.gms.measurement.AppMeasurementService"
+406-->[com.google.android.gms:play-services-measurement:21.5.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\552138e92500a1ebecf620a30d16f7a4\transformed\play-services-measurement-21.5.1\AndroidManifest.xml:36:13-84
+407            android:enabled="true"
+407-->[com.google.android.gms:play-services-measurement:21.5.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\552138e92500a1ebecf620a30d16f7a4\transformed\play-services-measurement-21.5.1\AndroidManifest.xml:37:13-35
+408            android:exported="false" />
+408-->[com.google.android.gms:play-services-measurement:21.5.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\552138e92500a1ebecf620a30d16f7a4\transformed\play-services-measurement-21.5.1\AndroidManifest.xml:38:13-37
+409        <service
+409-->[com.google.android.gms:play-services-measurement:21.5.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\552138e92500a1ebecf620a30d16f7a4\transformed\play-services-measurement-21.5.1\AndroidManifest.xml:39:9-43:72
+410            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+410-->[com.google.android.gms:play-services-measurement:21.5.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\552138e92500a1ebecf620a30d16f7a4\transformed\play-services-measurement-21.5.1\AndroidManifest.xml:40:13-87
+411            android:enabled="true"
+411-->[com.google.android.gms:play-services-measurement:21.5.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\552138e92500a1ebecf620a30d16f7a4\transformed\play-services-measurement-21.5.1\AndroidManifest.xml:41:13-35
+412            android:exported="false"
+412-->[com.google.android.gms:play-services-measurement:21.5.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\552138e92500a1ebecf620a30d16f7a4\transformed\play-services-measurement-21.5.1\AndroidManifest.xml:42:13-37
+413            android:permission="android.permission.BIND_JOB_SERVICE" />
+413-->[com.google.android.gms:play-services-measurement:21.5.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\552138e92500a1ebecf620a30d16f7a4\transformed\play-services-measurement-21.5.1\AndroidManifest.xml:43:13-69
+414
+415        <activity
+415-->[com.google.android.gms:play-services-base:18.0.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\7bf93dbadd88859c2c45bbb7a5c15f3f\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+416            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+416-->[com.google.android.gms:play-services-base:18.0.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\7bf93dbadd88859c2c45bbb7a5c15f3f\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+417            android:exported="false"
+417-->[com.google.android.gms:play-services-base:18.0.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\7bf93dbadd88859c2c45bbb7a5c15f3f\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+418            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+418-->[com.google.android.gms:play-services-base:18.0.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\7bf93dbadd88859c2c45bbb7a5c15f3f\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+419
+420        <service
+420-->[com.google.firebase:firebase-sessions:1.2.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\6c64bb2f92b1b1d9610082a5fe9f1f6c\transformed\firebase-sessions-1.2.1\AndroidManifest.xml:22:9-25:40
+421            android:name="com.google.firebase.sessions.SessionLifecycleService"
+421-->[com.google.firebase:firebase-sessions:1.2.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\6c64bb2f92b1b1d9610082a5fe9f1f6c\transformed\firebase-sessions-1.2.1\AndroidManifest.xml:23:13-80
+422            android:enabled="true"
+422-->[com.google.firebase:firebase-sessions:1.2.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\6c64bb2f92b1b1d9610082a5fe9f1f6c\transformed\firebase-sessions-1.2.1\AndroidManifest.xml:24:13-35
+423            android:exported="false" />
+423-->[com.google.firebase:firebase-sessions:1.2.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\6c64bb2f92b1b1d9610082a5fe9f1f6c\transformed\firebase-sessions-1.2.1\AndroidManifest.xml:25:13-37
+424
+425        <provider
+425-->[com.google.firebase:firebase-common:20.4.2] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\db86748b9e97c7b5488fd2025ebeca35\transformed\firebase-common-20.4.2\AndroidManifest.xml:23:9-28:39
+426            android:name="com.google.firebase.provider.FirebaseInitProvider"
+426-->[com.google.firebase:firebase-common:20.4.2] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\db86748b9e97c7b5488fd2025ebeca35\transformed\firebase-common-20.4.2\AndroidManifest.xml:24:13-77
+427            android:authorities="com.smartclick.auto.tap.autoclicker.firebaseinitprovider"
+427-->[com.google.firebase:firebase-common:20.4.2] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\db86748b9e97c7b5488fd2025ebeca35\transformed\firebase-common-20.4.2\AndroidManifest.xml:25:13-72
+428            android:directBootAware="true"
+428-->[com.google.firebase:firebase-common:20.4.2] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\db86748b9e97c7b5488fd2025ebeca35\transformed\firebase-common-20.4.2\AndroidManifest.xml:26:13-43
+429            android:exported="false"
+429-->[com.google.firebase:firebase-common:20.4.2] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\db86748b9e97c7b5488fd2025ebeca35\transformed\firebase-common-20.4.2\AndroidManifest.xml:27:13-37
+430            android:initOrder="100" />
+430-->[com.google.firebase:firebase-common:20.4.2] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\db86748b9e97c7b5488fd2025ebeca35\transformed\firebase-common-20.4.2\AndroidManifest.xml:28:13-36
+431
+432        <service
+432-->[androidx.room:room-runtime:2.6.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\5aed21e5752ce206136ec05717bc7885\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+433            android:name="androidx.room.MultiInstanceInvalidationService"
+433-->[androidx.room:room-runtime:2.6.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\5aed21e5752ce206136ec05717bc7885\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+434            android:directBootAware="true"
+434-->[androidx.room:room-runtime:2.6.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\5aed21e5752ce206136ec05717bc7885\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+435            android:exported="false" />
+435-->[androidx.room:room-runtime:2.6.1] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\5aed21e5752ce206136ec05717bc7885\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+436
+437        <uses-library
+437-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\b4afececfd4a9f18b1687e0b42dc03ad\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:23:9-25:40
+438            android:name="android.ext.adservices"
+438-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\b4afececfd4a9f18b1687e0b42dc03ad\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:24:13-50
+439            android:required="false" />
+439-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\b4afececfd4a9f18b1687e0b42dc03ad\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:25:13-37
+440
+441        <meta-data
+441-->[com.google.android.gms:play-services-basement:18.1.0] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\a239d18ee36f8207dc3623ff3b03a80d\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+442            android:name="com.google.android.gms.version"
+442-->[com.google.android.gms:play-services-basement:18.1.0] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\a239d18ee36f8207dc3623ff3b03a80d\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+443            android:value="@integer/google_play_services_version" />
+443-->[com.google.android.gms:play-services-basement:18.1.0] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\a239d18ee36f8207dc3623ff3b03a80d\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+444
+445        <service
+445-->[com.google.android.datatransport:transport-backend-cct:3.1.9] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\b87943068039a3889df1ef0e564fbfab\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:28:9-34:19
+446            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+446-->[com.google.android.datatransport:transport-backend-cct:3.1.9] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\b87943068039a3889df1ef0e564fbfab\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:29:13-103
+447            android:exported="false" >
+447-->[com.google.android.datatransport:transport-backend-cct:3.1.9] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\b87943068039a3889df1ef0e564fbfab\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:30:13-37
+448            <meta-data
+448-->[com.google.android.datatransport:transport-backend-cct:3.1.9] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\b87943068039a3889df1ef0e564fbfab\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:31:13-33:39
+449                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+449-->[com.google.android.datatransport:transport-backend-cct:3.1.9] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\b87943068039a3889df1ef0e564fbfab\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:32:17-94
+450                android:value="cct" />
+450-->[com.google.android.datatransport:transport-backend-cct:3.1.9] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\b87943068039a3889df1ef0e564fbfab\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:33:17-36
+451        </service>
+452        <service
+452-->[com.google.android.datatransport:transport-runtime:3.1.9] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\b13d0decf1432e049295f188ccfbc2c1\transformed\transport-runtime-3.1.9\AndroidManifest.xml:26:9-30:19
+453            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+453-->[com.google.android.datatransport:transport-runtime:3.1.9] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\b13d0decf1432e049295f188ccfbc2c1\transformed\transport-runtime-3.1.9\AndroidManifest.xml:27:13-117
+454            android:exported="false"
+454-->[com.google.android.datatransport:transport-runtime:3.1.9] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\b13d0decf1432e049295f188ccfbc2c1\transformed\transport-runtime-3.1.9\AndroidManifest.xml:28:13-37
+455            android:permission="android.permission.BIND_JOB_SERVICE" >
+455-->[com.google.android.datatransport:transport-runtime:3.1.9] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\b13d0decf1432e049295f188ccfbc2c1\transformed\transport-runtime-3.1.9\AndroidManifest.xml:29:13-69
+456        </service>
+457
+458        <receiver
+458-->[com.google.android.datatransport:transport-runtime:3.1.9] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\b13d0decf1432e049295f188ccfbc2c1\transformed\transport-runtime-3.1.9\AndroidManifest.xml:32:9-34:40
+459            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+459-->[com.google.android.datatransport:transport-runtime:3.1.9] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\b13d0decf1432e049295f188ccfbc2c1\transformed\transport-runtime-3.1.9\AndroidManifest.xml:33:13-132
+460            android:exported="false" />
+460-->[com.google.android.datatransport:transport-runtime:3.1.9] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\b13d0decf1432e049295f188ccfbc2c1\transformed\transport-runtime-3.1.9\AndroidManifest.xml:34:13-37
+461        <receiver
+461-->[androidx.profileinstaller:profileinstaller:1.4.0] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\899245a48f9f56a1dc39a6a7af027aac\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+462            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+462-->[androidx.profileinstaller:profileinstaller:1.4.0] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\899245a48f9f56a1dc39a6a7af027aac\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+463            android:directBootAware="false"
+463-->[androidx.profileinstaller:profileinstaller:1.4.0] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\899245a48f9f56a1dc39a6a7af027aac\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+464            android:enabled="true"
+464-->[androidx.profileinstaller:profileinstaller:1.4.0] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\899245a48f9f56a1dc39a6a7af027aac\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+465            android:exported="true"
+465-->[androidx.profileinstaller:profileinstaller:1.4.0] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\899245a48f9f56a1dc39a6a7af027aac\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+466            android:permission="android.permission.DUMP" >
+466-->[androidx.profileinstaller:profileinstaller:1.4.0] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\899245a48f9f56a1dc39a6a7af027aac\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+467            <intent-filter>
+467-->[androidx.profileinstaller:profileinstaller:1.4.0] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\899245a48f9f56a1dc39a6a7af027aac\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+468                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+468-->[androidx.profileinstaller:profileinstaller:1.4.0] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\899245a48f9f56a1dc39a6a7af027aac\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+468-->[androidx.profileinstaller:profileinstaller:1.4.0] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\899245a48f9f56a1dc39a6a7af027aac\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+469            </intent-filter>
+470            <intent-filter>
+470-->[androidx.profileinstaller:profileinstaller:1.4.0] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\899245a48f9f56a1dc39a6a7af027aac\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+471                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+471-->[androidx.profileinstaller:profileinstaller:1.4.0] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\899245a48f9f56a1dc39a6a7af027aac\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+471-->[androidx.profileinstaller:profileinstaller:1.4.0] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\899245a48f9f56a1dc39a6a7af027aac\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+472            </intent-filter>
+473            <intent-filter>
+473-->[androidx.profileinstaller:profileinstaller:1.4.0] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\899245a48f9f56a1dc39a6a7af027aac\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+474                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+474-->[androidx.profileinstaller:profileinstaller:1.4.0] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\899245a48f9f56a1dc39a6a7af027aac\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+474-->[androidx.profileinstaller:profileinstaller:1.4.0] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\899245a48f9f56a1dc39a6a7af027aac\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+475            </intent-filter>
+476            <intent-filter>
+476-->[androidx.profileinstaller:profileinstaller:1.4.0] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\899245a48f9f56a1dc39a6a7af027aac\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+477                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+477-->[androidx.profileinstaller:profileinstaller:1.4.0] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\899245a48f9f56a1dc39a6a7af027aac\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+477-->[androidx.profileinstaller:profileinstaller:1.4.0] D:\AndroidStudioProjects\ClientApps\Calculator\gradle\caches\8.11.1\transforms\899245a48f9f56a1dc39a6a7af027aac\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+478            </intent-filter>
+479        </receiver>
+480    </application>
+481
+482</manifest>
