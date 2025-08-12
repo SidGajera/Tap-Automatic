@@ -50,12 +50,13 @@ public class IntroActivity extends BaseActivity {
                     ? R.drawable.guide_1_indicator : i == 1
                     ? R.drawable.guide_2_indicator : i == 2
                     ? R.drawable.guide_3_indicator : R.drawable.guide_4_indicator).into(IntroActivity.this.binding.indicator);
-            IntroActivity.this.binding.nextDoneTxt.setText(i == 3 ? R.string.ac10 : R.string.ac9);
-            if (IntroActivity.this.binding.infoPager.getCurrentItem() == 1 || IntroActivity.this.binding.infoPager.getCurrentItem() == 3) {
-                IntroActivity.this.binding.nativeAdContainerIntro.setVisibility(View.GONE);
-            } else {
-                IntroActivity.this.binding.nativeAdContainerIntro.setVisibility(View.VISIBLE);
-            }
+
+//            IntroActivity.this.binding.nextDoneTxt.setText(i == 3 ? R.string.ac10 : R.string.ac9);
+//            if (IntroActivity.this.binding.infoPager.getCurrentItem() == 1 || IntroActivity.this.binding.infoPager.getCurrentItem() == 3) {
+//                IntroActivity.this.binding.nativeAdContainerIntro.setVisibility(View.GONE);
+//            } else {
+//                IntroActivity.this.binding.nativeAdContainerIntro.setVisibility(View.VISIBLE);
+//            }
         }
         @Override
         public void onPageScrollStateChanged(int i) {

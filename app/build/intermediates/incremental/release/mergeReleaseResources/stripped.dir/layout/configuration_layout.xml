@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/_5sdp"
+    app:measureMargin="true"
+    app:measureWith="none"
+    app:resizeChildren="true">
+
+    <RelativeLayout
+        android:id="@+id/mainRl"
+        android:layout_width="980px"
+        android:layout_height="180px"
+        android:background="@drawable/new_text_btn_bg">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="60px"
+            android:layout_toLeftOf="@+id/pcmCl"
+            android:fontFamily="@font/gilroy_medium"
+            android:gravity="center_vertical"
+            android:lines="1"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_18sdp" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/pcmCl"
+            android:layout_width="360px"
+            android:layout_height="100px"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginHorizontal="50px"
+            android:layout_marginLeft="50px"
+            android:layout_marginRight="50px"
+            android:background="@drawable/pcm_bg">
+
+            <ImageView
+                android:id="@+id/play"
+                android:layout_width="50px"
+                android:layout_height="50px"
+                android:src="@drawable/effect_pcm_play"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/copy"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:layout_width="1px"
+                android:layout_height="55px"
+                android:src="@drawable/pcm_divider"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/copy"
+                app:layout_constraintStart_toEndOf="@+id/play"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/copy"
+                android:layout_width="50px"
+                android:layout_height="50px"
+                android:src="@drawable/effect_pcm_copy"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/more"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/play"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:layout_width="1px"
+                android:layout_height="55px"
+                android:src="@drawable/pcm_divider"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/more"
+                app:layout_constraintStart_toEndOf="@+id/copy"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/more"
+                android:layout_width="50px"
+                android:layout_height="50px"
+                android:src="@drawable/effect_pcm_more"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/copy"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </RelativeLayout>
+</RelativeLayout>

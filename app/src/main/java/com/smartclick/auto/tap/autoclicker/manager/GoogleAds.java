@@ -11,6 +11,7 @@ import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 
@@ -28,6 +29,7 @@ import com.google.android.gms.ads.rewarded.RewardedAdLoadCallback;
 import com.google.android.gms.ads.rewardedinterstitial.RewardedInterstitialAd;
 import com.google.android.gms.ads.rewardedinterstitial.RewardedInterstitialAdLoadCallback;
 import com.smartclick.auto.tap.autoclicker.R;
+import com.smartclick.auto.tap.autoclicker.utils.BaseActivity;
 
 import java.util.Objects;
 
@@ -93,6 +95,8 @@ public class GoogleAds {
             public void onAdFailedToLoad(@NonNull LoadAdError loadAdError) {
                 super.onAdFailedToLoad(loadAdError);
                 listener.onError();
+                Toast.makeText(context, "bannerAd fails to load for unitID: "
+                        +bannerId+" for error: "+loadAdError.getMessage(), Toast.LENGTH_SHORT).show();
             }
         });
     }
@@ -130,6 +134,8 @@ public class GoogleAds {
             public void onAdFailedToLoad(@NonNull LoadAdError loadAdError) {
                 super.onAdFailedToLoad(loadAdError);
                 view.setVisibility(View.GONE);
+                Toast.makeText(context, "Banner Ad fails to load for unitID: "
+                        +bannerId+" for error: "+loadAdError.getMessage(), Toast.LENGTH_SHORT).show();
             }
         });
         return true;
@@ -157,6 +163,8 @@ public class GoogleAds {
                     @Override
                     public void onAdFailedToShowFullScreenContent(@NonNull AdError adError) {
                         customAdsListener.onError();
+                        Toast.makeText(activity, "rewardedInterstitialVideo fails to load for unitID: "
+                                +interstitialId+" for error: "+adError.getMessage(), Toast.LENGTH_SHORT).show();
                     }
                 });
                 interstitialAd.show(activity);
@@ -205,6 +213,8 @@ public class GoogleAds {
                                     public void onAdFailedToShowFullScreenContent(@NonNull AdError adError) {
                                         super.onAdFailedToShowFullScreenContent(adError);
                                         customAdsListener.onError();
+                                        Toast.makeText(activity, "rewardedInterstitialVideo fails to load for unitID: "
+                                                +rewardedId+" for error: "+adError.getMessage(), Toast.LENGTH_SHORT).show();
                                     }
 
                                     @Override
@@ -248,6 +258,8 @@ public class GoogleAds {
                     @Override
                     public void onAdFailedToShowFullScreenContent(@NonNull AdError adError) {
                         customAdsListener.onError();
+                        Toast.makeText(activity, "rewardVideo fails to load for unitID: "
+                                +rewardedId+" for error: "+adError.getMessage(), Toast.LENGTH_SHORT).show();
                     }
 
                     @Override

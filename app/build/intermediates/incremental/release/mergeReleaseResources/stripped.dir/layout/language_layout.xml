@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_6sdp">
+    <RelativeLayout android:id="@+id/lan_layout" android:background="@drawable/language_bg_unselected" android:layout_width="1000px" android:layout_height="160px">
+        <ImageView android:id="@+id/language_image" android:layout_width="133px" android:layout_height="133px" android:layout_marginLeft="50px" android:layout_marginRight="50px" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_marginHorizontal="50px"/>
+        <TextView android:textSize="@dimen/_14sdp" android:textColor="@color/black" android:gravity="center_vertical" android:id="@+id/language" android:layout_width="match_parent" android:layout_height="wrap_content" android:lines="1" android:layout_toLeftOf="@+id/select" android:layout_toRightOf="@+id/language_image" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:fontFamily="@font/gilroy_regular"/>
+        <ImageView android:id="@+id/select" android:layout_width="32px" android:layout_height="32px" android:layout_marginLeft="50px" android:layout_marginRight="50px" android:src="@drawable/radio_unselect" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginHorizontal="50px"/>
+    </RelativeLayout>
+</RelativeLayout>

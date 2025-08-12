@@ -13,6 +13,7 @@ import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -40,6 +41,7 @@ import java.util.TimeZone;
 public abstract class BaseActivity extends AppCompatActivity implements CustomAdsListener {
     public List<String> interstitialAds, interstitialVideoAds, bannerAds, rewardVideoAds, nativeAds, nativeVideoAds;
     public int interstitialIndex = 0, interstitialVideoIndex = 0, bannerIndex = 0, rewardVideoIndex = 0, nativeAdsIndex = 0, nativeVideoIndex = 0;
+    String TAG = BaseActivity.class.getName();
 
     @Override
     public void attachBaseContext(Context context) {
@@ -269,13 +271,14 @@ public abstract class BaseActivity extends AppCompatActivity implements CustomAd
 
     public void loadNativeAd(@NonNull FrameLayout adContainer, List<String> adsId, int index, boolean isVideo) {
         FrameLayout adLayout = (FrameLayout) getLayoutInflater()
-                .inflate(R.layout.native_ad_layout, (ViewGroup) null);
+                .inflate(R.layout.native_ad_layout, null);
         ShimmerFrameLayout shimmerFrameLayout = adLayout.findViewById(R.id.shimmer_view);
         NativeAdView adView = adLayout.findViewById(R.id.native_ad_view);
         adContainer.removeAllViews();
         adContainer.addView(adLayout);
         if (adsId == null || adsId.isEmpty()) {
-            Log.d(TAG, "loadNativeAd: No Native Ads Available");
+            Log.e(TAG, "loadNativeAd: fails to load for unitID: "
+                    +adsId+" for error: No Native Ads Available");
             if (isVideo) {
                 loadNativeAd(adContainer, nativeAds, 0, false);
             } else {
@@ -312,13 +315,14 @@ public abstract class BaseActivity extends AppCompatActivity implements CustomAd
                     @Override
                     public void onAdFailedToLoad(@NonNull LoadAdError adError) {
                         loadNativeAd(adContainer, adsId, index + 1, isVideo);
-                        Log.e(TAG, "Failed to load native ad: " + adError.getMessage());
+                        Log.e(TAG, "nativeAd fails to load for unitID: "
+                                +adUnitId+" for error: "+adError.getMessage());
+                        Toast.makeText(BaseActivity.this, "nativeAd fails to load for unitID: "
+                                +adUnitId+" for error: "+adError.getMessage(), Toast.LENGTH_SHORT).show();
                     }
                 })
                 .build();
-
         shimmerFrameLayout.startShimmer();
-
         adLoader.loadAd(new AdRequest.Builder().build());
     }
 

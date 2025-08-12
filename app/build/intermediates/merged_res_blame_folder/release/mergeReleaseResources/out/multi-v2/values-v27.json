@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.smartclick.auto.tap.autoclicker.app-mergeReleaseResources-4:/values-v27/values-v27.xml",
+            "map": [
+                {
+                    "source": "D:\\AndroidStudioProjects\\Client Apps\\Auto Clicker\\app\\src\\main\\res\\values-v27\\styles.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "59",
+                        "endLines": "17",
+                        "endColumns": "12",
+                        "endOffsets": "977"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "16",
+                        "endColumns": "12",
+                        "endOffsets": "915"
+                    }
+                }
+            ]
+        }
+    ]
+}

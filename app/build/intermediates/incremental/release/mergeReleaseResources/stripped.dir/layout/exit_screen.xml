@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="horizontal" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="10">
+        <RelativeLayout android:gravity="center" android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="5">
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@+id/nativeLay" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <TextView android:textSize="22sp" android:textColor="@android:color/white" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Advertisement" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1.5">
+            <TextView android:textSize="40dp" android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Exit App?" android:layout_alignParentBottom="true" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginBottom="10dp" android:layout_weight="1.5">
+            <TextView android:textSize="20sp" android:textColor="@android:color/black" android:id="@+id/txt1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Are you sure, you want to" android:layout_centerInParent="true"/>
+            <TextView android:textSize="20sp" android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="close the app?" android:layout_below="@+id/txt1" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:weightSum="3" android:layout_weight="2">
+            <RelativeLayout android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginRight="10dp" android:layout_weight="1">
+                <ImageView android:id="@+id/txt_rate" android:background="@drawable/exit_btn" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize" android:layout_centerInParent="true" android:backgroundTint="#4caf50"/>
+                <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Rate App" android:layout_centerInParent="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                <ImageView android:id="@+id/txt_yes" android:background="@drawable/exit_btn" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize" android:layout_centerInParent="true" android:backgroundTint="#4caf50"/>
+                <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Yes" android:layout_centerInParent="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_weight="1">
+                <ImageView android:id="@+id/txt_no" android:background="@drawable/exit_btn" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize" android:layout_centerInParent="true" android:backgroundTint="#4caf50"/>
+                <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="No" android:layout_centerInParent="true"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -68,13 +68,6 @@ public class PermissionActivity extends BaseActivity {
 
         setContentView(inflate.getRoot());
         isNetworkAvailable();
-        if (isAdShow) {
-            setupLoadAds(adUnitsMapPermission);
-            new Thread(
-                    () -> runOnUiThread(
-                            () -> loadNativeAd(binding.nativeAdContainerPermission, nativeVideoAds, 0, true))
-            ).start();
-        }
 
         SpManager.setPermissionEventCount(SpManager.getPermissionEventCount() + 1);
         Log.e(TAG, "onCreate: event_count permission visit ==> " + SpManager.getPermissionEventCount());
@@ -84,6 +77,14 @@ public class PermissionActivity extends BaseActivity {
             Intent intent = new Intent(Settings.ACTION_REQUEST_IGNORE_BATTERY_OPTIMIZATIONS,
                     Uri.parse("package:" + getPackageName()));
             startActivity(intent);
+        }
+
+        if (isAdShow) {
+            setupLoadAds(adUnitsMapPermission);
+            new Thread(
+                    () -> runOnUiThread(
+                            () -> loadNativeAd(binding.nativeAdContainerPermission, nativeVideoAds, 0, true))
+            ).start();
         }
     }
 

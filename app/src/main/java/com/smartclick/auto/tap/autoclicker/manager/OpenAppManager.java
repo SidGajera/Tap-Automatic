@@ -2,6 +2,7 @@ package com.smartclick.auto.tap.autoclicker.manager;
 
 import android.app.Application;
 import android.util.Log;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.lifecycle.DefaultLifecycleObserver;
@@ -100,6 +101,8 @@ public class OpenAppManager implements DefaultLifecycleObserver {
                     isShowingAd = false;
                     MyApplication.isAppOpenAdShow = false;
                     Log.d(TAG, "setShowingAd onAdFailedToShowFullScreenContent");
+                    Toast.makeText(application, "appOpen fails to load for unitID: "
+                            +appOpenAd.getAdUnitId()+" for error: "+adError.getMessage() , Toast.LENGTH_SHORT).show();
                 }
 
                 @Override
@@ -146,6 +149,8 @@ public class OpenAppManager implements DefaultLifecycleObserver {
             @Override
             public void onAdFailedToLoad(@NonNull LoadAdError error) {
                 Log.d(TAG, "OpenAppManager loadAd onAdFailedToLoad " + error.getMessage());
+                Toast.makeText(application, "appOpen fails to load for unitID: "
+                        +appOpenAd.getAdUnitId()+" for error: "+error.getMessage() , Toast.LENGTH_SHORT).show();
                 appOpenAd = null;
                 appOpenIndex++;
                 loadAd();

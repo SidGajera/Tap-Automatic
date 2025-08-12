@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@drawable/bg" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/nativeLay">
+        <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="30dp" android:weightSum="3">
+                        <LinearLayout android:background="@drawable/bgshort" android:layout_width="match_parent" android:layout_height="300dp">
+                            <com.airbnb.lottie.LottieAnimationView android:layout_width="250dp" android:layout_height="250dp" android:layout_marginTop="50dp" android:layout_marginStart="50dp" app:lottie_autoPlay="true" app:lottie_loop="true" app:lottie_rawRes="@raw/v2"/>
+                        </LinearLayout>
+                        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="25dp" android:layout_marginTop="30dp" android:layout_marginRight="25dp" android:src="@drawable/texts" android:adjustViewBounds="true" android:text="start" android:layout_marginHorizontal="25dp"/>
+                        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="80dp" android:layout_marginTop="5dp" android:layout_marginRight="80dp" android:src="@drawable/text2" android:adjustViewBounds="true" android:text="start" android:layout_marginHorizontal="80dp"/>
+                        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="80dp" android:layout_marginLeft="30dp" android:layout_marginTop="40dp" android:layout_marginRight="30dp" android:layout_marginHorizontal="30dp">
+                            <ImageView android:layout_gravity="center" android:id="@+id/bStart" android:layout_width="match_parent" android:layout_height="120dp" android:src="@drawable/f1" android:text="start"/>
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="130dp" android:layout_marginLeft="30dp" android:layout_marginTop="5dp" android:layout_marginRight="30dp" android:layout_marginHorizontal="30dp">
+                            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/bRate" android:layout_width="0dp" android:layout_height="100dp" android:layout_marginTop="10dp" android:layout_weight="1">
+                                <ImageView android:textSize="8dp" android:layout_width="wrap_content" android:layout_height="100dp" android:src="@drawable/f2" android:text="Rate"/>
+                            </LinearLayout>
+                            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/bShare" android:layout_width="0dp" android:layout_height="100dp" android:layout_marginTop="10dp" android:layout_weight="1">
+                                <ImageView android:textSize="8dp" android:layout_width="wrap_content" android:layout_height="100dp" android:src="@drawable/f4" android:text="Share"/>
+                            </LinearLayout>
+                            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/bPolicy" android:layout_width="0dp" android:layout_height="100dp" android:layout_marginTop="10dp" android:layout_weight="1">
+                                <ImageView android:textSize="8dp" android:layout_width="match_parent" android:layout_height="100dp" android:src="@drawable/f3" android:text="Policy"/>
+                            </LinearLayout>
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                            <TextView android:textSize="12dp" android:textStyle="bold" android:textColor="@color/white" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:text="More App"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/nativeLay" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="60dp" android:layout_alignParentBottom="true"/>
+</RelativeLayout>
